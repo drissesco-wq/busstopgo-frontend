@@ -24,7 +24,7 @@ function LoadingState() {
   );
 }
 
-export default function DeparturesPage() {
+export default function DeparturesClient() {
   const [inputValue, setInputValue] = useState("");
   const [activeStopId, setActiveStopId] = useState("");
   const [data, setData] = useState<DeparturesResponse | null>(null);
