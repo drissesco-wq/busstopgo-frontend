@@ -1,0 +1,34 @@
+---
+pid: 25860
+cwd: "C:\hfxtrans"
+command: "curl.exe -s --max-time 10 http://5.161.181.78:8000/; curl.exe -s --max-time 10 http://5.161.181.78:3000/; curl.exe -s --max-time 10 http://5.161.181.78:5000/; curl.exe -s --max-time 10 http://5.161.181.78/halifax/; curl.exe -s --max-time 10 http://5.161.181.78/stops/; curl.exe -s --max-time 10 \"http://5.161.181.78/stops/1234/departures\""
+started_at: 2026-07-01T13:30:02.733Z
+running_for_ms: 86400043 
+---
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+---
+exit_code: -1
+elapsed_ms: 86400043
+ended_at: 2026-07-02T13:30:30.190Z
+---

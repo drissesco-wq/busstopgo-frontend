@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f1f5f9;
+  --foreground: #0f172a;
+  --halifax-navy: #0b2d4f;
+  --halifax-blue: #1d6fb8;
+  --halifax-blue-dark: #155a96;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-halifax-navy: var(--halifax-navy);
+  --color-halifax-blue: var(--halifax-blue);
+  --color-halifax-blue-dark: var(--halifax-blue-dark);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
