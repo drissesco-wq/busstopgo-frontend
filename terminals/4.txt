@@ -1,0 +1,8 @@
+---
+pid: 35568
+cwd: "C:\hfxtrans"
+command: "curl.exe -s -o NUL -w \"%{http_code}\" \"http://localhost:3000/api/departures?stop_id=6033\"; curl.exe -s \"http://localhost:3000/api/departures?stop_id=6033\" | Select-Object -First 1"
+started_at: 2026-07-02T16:43:55.305Z
+running_for_ms: 1730009  
+---
+200{"city":"halifax","count":1,"data_mode":"live","departures":[{"departure_time":"14:21","destination":"68 CHERRY BROOK VIA AUBURN DR","headsign":"68 CHERRY BROOK VIA AUBURN DR","is_live":true,"minutes_until_departure":37,"route_number":"68","vehicle_id":"1391"}],"stop_id":"6033","updated_at":1783010636}
